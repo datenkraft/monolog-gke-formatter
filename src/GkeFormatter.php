@@ -1,6 +1,6 @@
 <?php
 
-namespace MacPaw\MonologGkeFormatter;
+namespace Datenkraft\MonologGkeFormatter;
 
 use GuzzleHttp\Psr7\ServerRequest;
 use Monolog\Formatter\JsonFormatter;
