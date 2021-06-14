@@ -1,7 +1,7 @@
 {
-    "name": "macpaw/monolog-gke-formatter",
+    "name": "datenkraft/monolog-gke-formatter",
     "description": "Monolog JSON Formatter for Google StackDriver integration",
-    "homepage": "https://github.com/MacPaw/monolog-gke-formatter",
+    "homepage": "https://github.com/datenkraft/monolog-gke-formatter",
     "type": "library",
     "keywords": [
         "Google",
@@ -18,7 +18,10 @@
         {
             "name": "Andrii Nasinnyk",
             "email": "anasinnyk@macpaw.com"
-        }
+        },
+        {
+            "name": "Datenkraft GmbH"
+        }        
     ],
     "require": {
         "php": ">=7.2",
@@ -26,6 +29,6 @@
         "guzzlehttp/psr7": "^1.6"
     },
     "autoload": {
-        "psr-4": {"MacPaw\\MonologGkeFormatter\\": "src"}
+        "psr-4": {"Datenkraft\\MonologGkeFormatter\\": "src"}
     }
 }
