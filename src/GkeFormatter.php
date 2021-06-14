@@ -25,6 +25,8 @@ class GkeFormatter extends JsonFormatter
         $this->httpRequestContext = $httpRequestContext;
         $this->sourceLocationContext = $sourceLocationContext;
         $this->deepToBacktrace = $deepToBacktrace;
+        
+        $this->includeStacktraces(true);
     }
 
     public function format(array $record): string
