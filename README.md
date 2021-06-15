@@ -5,7 +5,7 @@ This library can re-format json log to Google Kubernetes Engine format
 ## Installation
 
 ```
-composer require macpaw/monolog-gke-formatter
+composer require datenkraft/monolog-gke-formatter
 ```
 
 ## Usage
@@ -13,8 +13,13 @@ composer require macpaw/monolog-gke-formatter
 ```php
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-use MacPaw\MonologGkeFormatter\GkeFormatter;
+use Datenkraft\MonologGkeFormatter\GkeFormatter;
 
 $handler = new StreamHandler('php://stdout');
 $handler->setFormatter(new GkeFormatter());
 ```
+
+## Credits
+
+Forked from https://github.com/MacPaw/monolog-gke-formatter
+Thank you!
