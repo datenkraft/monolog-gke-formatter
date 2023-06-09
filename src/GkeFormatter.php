@@ -75,7 +75,7 @@ class GkeFormatter extends JsonFormatter
             [
                 'message' => $record->message,
                 'thread' => $record->channel,
-                'severity' => $record->level,
+                'severity' => $record->level->getName(),
                 'serviceContext' => $record->context,
                 'timestamp' => $record->datetime->getTimestamp(),
             ]
